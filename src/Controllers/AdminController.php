@@ -8,7 +8,7 @@ use Eilison\LaAdmin\Layout\Content;
 use Eilison\LaAdmin\Show;
 use Illuminate\Routing\Controller;
 
-class UserController extends Controller
+class AdminController extends Controller
 {
     use HasResourceActions;
 

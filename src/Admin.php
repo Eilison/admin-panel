@@ -234,7 +234,7 @@ class Admin
             $router->namespace('Eilison\LaAdmin\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
-                $router->resource('auth/users', 'UserController');
+                $router->resource('auth/admins', 'AdminController');
                 $router->resource('auth/roles', 'RoleController');
                 $router->resource('auth/permissions', 'PermissionController');
                 $router->resource('auth/menu', 'MenuController', ['except' => ['create']]);
