@@ -14,6 +14,12 @@ class DummyClass extends Controller
 {
     use HasResourceActions;
 
+    private $indexStr = "列表";
+    private $descriptionStr = "详情";
+    private $detailStr = "详细";
+    private $createStr = "创建";
+    private $editStr = "编辑";
+
     /**
      * Index interface.
      *
@@ -23,8 +29,8 @@ class DummyClass extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header($this->indexStr)
+            ->description($this->descriptionStr)
             ->body($this->grid());
     }
 
@@ -38,8 +44,8 @@ class DummyClass extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header($this->detailStr)
+            ->description($this->descriptionStr)
             ->body($this->detail($id));
     }
 
@@ -53,8 +59,8 @@ class DummyClass extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header($this->editStr)
+            ->description($this->descriptionStr)
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +73,8 @@ class DummyClass extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header($this->createStr)
+            ->description($this->descriptionStr)
             ->body($this->form());
     }
 
