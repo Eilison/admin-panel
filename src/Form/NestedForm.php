@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Eilison\LaAdmin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Eilison\LaAdmin\Admin;
+use Eilison\LaAdmin\Form;
 use Illuminate\Support\Collection;
 
 /**
@@ -84,7 +84,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Encore\Admin\Form
+     * @var \Eilison\LaAdmin\Form
      */
     protected $form;
 
@@ -217,7 +217,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Encore\Admin\Form\Field\Hidden) || $value != $field->original()) {
+            if (($field instanceof \Eilison\LaAdmin\Form\Field\Hidden) || $value != $field->original()) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         array_set($prepared, $column, $value[$name]);

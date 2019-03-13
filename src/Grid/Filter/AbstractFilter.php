@@ -1,15 +1,15 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Eilison\LaAdmin\Grid\Filter;
 
-use Encore\Admin\Grid\Filter;
-use Encore\Admin\Grid\Filter\Presenter\Checkbox;
-use Encore\Admin\Grid\Filter\Presenter\DateTime;
-use Encore\Admin\Grid\Filter\Presenter\MultipleSelect;
-use Encore\Admin\Grid\Filter\Presenter\Presenter;
-use Encore\Admin\Grid\Filter\Presenter\Radio;
-use Encore\Admin\Grid\Filter\Presenter\Select;
-use Encore\Admin\Grid\Filter\Presenter\Text;
+use Eilison\LaAdmin\Grid\Filter;
+use Eilison\LaAdmin\Grid\Filter\Presenter\Checkbox;
+use Eilison\LaAdmin\Grid\Filter\Presenter\DateTime;
+use Eilison\LaAdmin\Grid\Filter\Presenter\MultipleSelect;
+use Eilison\LaAdmin\Grid\Filter\Presenter\Presenter;
+use Eilison\LaAdmin\Grid\Filter\Presenter\Radio;
+use Eilison\LaAdmin\Grid\Filter\Presenter\Select;
+use Eilison\LaAdmin\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Collection;
 
 /**

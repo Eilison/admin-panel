@@ -1,18 +1,18 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Exporter;
-use Encore\Admin\Grid\Exporters\AbstractExporter;
-use Encore\Admin\Grid\Filter;
-use Encore\Admin\Grid\HasElementNames;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Row;
-use Encore\Admin\Grid\Tools;
+use Eilison\LaAdmin\Exception\Handler;
+use Eilison\LaAdmin\Grid\Column;
+use Eilison\LaAdmin\Grid\Displayers;
+use Eilison\LaAdmin\Grid\Exporter;
+use Eilison\LaAdmin\Grid\Exporters\AbstractExporter;
+use Eilison\LaAdmin\Grid\Filter;
+use Eilison\LaAdmin\Grid\HasElementNames;
+use Eilison\LaAdmin\Grid\Model;
+use Eilison\LaAdmin\Grid\Row;
+use Eilison\LaAdmin\Grid\Tools;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -26,7 +26,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Encore\Admin\Grid\Model
+     * @var \Eilison\LaAdmin\Grid\Model
      */
     protected $model;
 
@@ -82,7 +82,7 @@ class Grid
     /**
      * The grid Filter.
      *
-     * @var \Encore\Admin\Grid\Filter
+     * @var \Eilison\LaAdmin\Grid\Filter
      */
     protected $filter;
 

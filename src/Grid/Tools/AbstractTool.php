@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Eilison\LaAdmin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Eilison\LaAdmin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 abstract class AbstractTool implements Renderable

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Eilison\LaAdmin\Form;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

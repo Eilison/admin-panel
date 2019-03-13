@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth;
+namespace Eilison\LaAdmin\Auth;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Middleware\Pjax;
+use Eilison\LaAdmin\Facades\Admin;
+use Eilison\LaAdmin\Middleware\Pjax;
 use Illuminate\Support\Facades\Auth;
 
 class Permission

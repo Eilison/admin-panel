@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Eilison\LaAdmin\Grid\Exporters;
 
 interface ExporterInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Eilison\LaAdmin\Middleware;
 
 use Illuminate\Http\Request;
 

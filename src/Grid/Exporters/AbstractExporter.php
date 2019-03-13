@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Eilison\LaAdmin\Grid\Exporters;
 
-use Encore\Admin\Grid;
+use Eilison\LaAdmin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Encore\Admin\Grid
+     * @var \Eilison\LaAdmin\Grid
      */
     protected $grid;
 

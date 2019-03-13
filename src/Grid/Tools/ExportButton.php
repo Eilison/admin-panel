@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Eilison\LaAdmin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
+use Eilison\LaAdmin\Admin;
+use Eilison\LaAdmin\Grid;
 
 class ExportButton extends AbstractTool
 {

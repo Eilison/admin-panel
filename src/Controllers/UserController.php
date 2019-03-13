@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Eilison\LaAdmin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Show;
+use Eilison\LaAdmin\Form;
+use Eilison\LaAdmin\Grid;
+use Eilison\LaAdmin\Layout\Content;
+use Eilison\LaAdmin\Show;
 use Illuminate\Routing\Controller;
 
 class UserController extends Controller

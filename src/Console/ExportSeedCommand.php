@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Eilison\LaAdmin\Console;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 use Illuminate\Console\Command;
 
 class ExportSeedCommand extends Command

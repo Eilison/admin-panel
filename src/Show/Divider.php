@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Eilison\LaAdmin\Show;
 
 class Divider extends Field
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

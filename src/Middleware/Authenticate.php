@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Eilison\LaAdmin\Middleware;
 
 use Closure;
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 use Illuminate\Support\Facades\Auth;
 
 class Authenticate

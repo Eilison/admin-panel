@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Eilison\LaAdmin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 
 class FilterButton extends AbstractTool
 {
@@ -17,7 +17,7 @@ class FilterButton extends AbstractTool
     protected $btnClassName;
 
     /**
-     * @return \Encore\Admin\Grid\Filter
+     * @return \Eilison\LaAdmin\Grid\Filter
      */
     protected function filter()
     {

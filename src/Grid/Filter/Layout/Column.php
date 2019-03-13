@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Layout;
+namespace Eilison\LaAdmin\Grid\Filter\Layout;
 
-use Encore\Admin\Grid\Filter\AbstractFilter;
+use Eilison\LaAdmin\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Collection;
 
 class Column

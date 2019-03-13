@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Eilison\LaAdmin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Eilison\LaAdmin\Admin;
+use Eilison\LaAdmin\Form;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

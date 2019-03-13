@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Eilison\LaAdmin\Layout;
 
-use Encore\Admin\Grid;
+use Eilison\LaAdmin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Eilison\LaAdmin\Grid;
 
-use Encore\Admin\Grid\Filter\AbstractFilter;
-use Encore\Admin\Grid\Filter\Group;
-use Encore\Admin\Grid\Filter\Layout\Layout;
-use Encore\Admin\Grid\Filter\Scope;
+use Eilison\LaAdmin\Grid\Filter\AbstractFilter;
+use Eilison\LaAdmin\Grid\Filter\Group;
+use Eilison\LaAdmin\Grid\Filter\Layout\Layout;
+use Eilison\LaAdmin\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

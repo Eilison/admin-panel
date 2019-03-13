@@ -19,7 +19,7 @@ And then create a new custom export class, such as `app/Admin/Extensions/ExcelEx
 
 namespace App\Admin\Extensions;
 
-use Encore\Admin\Grid\Exporters\AbstractExporter;
+use Eilison\LaAdmin\Grid\Exporters\AbstractExporter;
 use Maatwebsite\Excel\Facades\Excel;
 
 class ExcelExpoter extends AbstractExporter

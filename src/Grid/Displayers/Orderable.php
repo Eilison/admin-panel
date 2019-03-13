@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Eilison\LaAdmin\Grid\Displayers;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 
 class Orderable extends AbstractDisplayer
 {

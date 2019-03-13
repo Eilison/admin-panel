@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Eilison\LaAdmin\Form\Field;
 
 class Rate extends Text
 {

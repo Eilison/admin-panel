@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Eilison\LaAdmin\Grid;
 
 use Closure;
 use Illuminate\Contracts\Support\Htmlable;

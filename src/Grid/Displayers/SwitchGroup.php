@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Eilison\LaAdmin\Grid\Displayers;
 
-use Encore\Admin\Facades\Admin;
+use Eilison\LaAdmin\Facades\Admin;
 use Illuminate\Support\Arr;
 
 class SwitchGroup extends AbstractDisplayer

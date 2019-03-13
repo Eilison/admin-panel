@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Eilison\LaAdmin\Show;
 
-use Encore\Admin\Show;
+use Eilison\LaAdmin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

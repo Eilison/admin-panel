@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Eilison\LaAdmin\Form\Field;
 
-use Encore\Admin\Form;
+use Eilison\LaAdmin\Form;
 
 class Captcha extends Text
 {

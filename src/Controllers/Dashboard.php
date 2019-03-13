@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Eilison\LaAdmin\Controllers;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 
 class Dashboard
 {

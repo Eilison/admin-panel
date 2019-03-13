@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Eilison\LaAdmin\Grid\Filter;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 use Illuminate\Support\Collection;
 
 class Group extends AbstractFilter

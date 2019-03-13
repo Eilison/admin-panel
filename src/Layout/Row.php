@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Eilison\LaAdmin\Layout;
 
 use Illuminate\Contracts\Support\Renderable;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Eilison\LaAdmin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Eilison\LaAdmin\Form;
+use Eilison\LaAdmin\Grid;
+use Eilison\LaAdmin\Tree;
 
 trait AdminBuilder
 {

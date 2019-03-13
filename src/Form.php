@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Form\Builder;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Row;
-use Encore\Admin\Form\Tab;
+use Eilison\LaAdmin\Exception\Handler;
+use Eilison\LaAdmin\Form\Builder;
+use Eilison\LaAdmin\Form\Field;
+use Eilison\LaAdmin\Form\Row;
+use Eilison\LaAdmin\Form\Tab;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Eilison\LaAdmin\Console;
 
 use Illuminate\Console\Command;
 

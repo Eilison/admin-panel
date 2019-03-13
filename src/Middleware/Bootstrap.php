@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Eilison\LaAdmin\Middleware;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
+use Eilison\LaAdmin\Admin;
+use Eilison\LaAdmin\Form;
+use Eilison\LaAdmin\Grid;
 use Illuminate\Http\Request;
 
 class Bootstrap

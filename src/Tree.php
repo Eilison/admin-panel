@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
 use Closure;
-use Encore\Admin\Tree\Tools;
+use Eilison\LaAdmin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

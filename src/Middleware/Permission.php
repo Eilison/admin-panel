@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Eilison\LaAdmin\Middleware;
 
-use Encore\Admin\Auth\Permission as Checker;
-use Encore\Admin\Facades\Admin;
+use Eilison\LaAdmin\Auth\Permission as Checker;
+use Eilison\LaAdmin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

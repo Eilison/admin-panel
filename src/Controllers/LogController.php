@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Eilison\LaAdmin\Controllers;
 
-use Encore\Admin\Auth\Database\OperationLog;
-use Encore\Admin\Grid;
-use Encore\Admin\Layout\Content;
+use Eilison\LaAdmin\Auth\Database\OperationLog;
+use Eilison\LaAdmin\Grid;
+use Eilison\LaAdmin\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class LogController extends Controller

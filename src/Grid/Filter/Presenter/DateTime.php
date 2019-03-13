@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Eilison\LaAdmin\Grid\Filter\Presenter;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 
 class DateTime extends Presenter
 {

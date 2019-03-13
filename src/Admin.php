@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
 use Closure;
-use Encore\Admin\Controllers\AuthController;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Traits\HasAssets;
-use Encore\Admin\Widgets\Navbar;
+use Eilison\LaAdmin\Controllers\AuthController;
+use Eilison\LaAdmin\Layout\Content;
+use Eilison\LaAdmin\Traits\HasAssets;
+use Eilison\LaAdmin\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
@@ -65,7 +65,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Grid
+     * @return \Eilison\LaAdmin\Grid
      *
      * @deprecated since v1.6.1
      */
@@ -78,7 +78,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Form
+     * @return \Eilison\LaAdmin\Form
      *
      *  @deprecated since v1.6.1
      */
@@ -92,7 +92,7 @@ class Admin
      *
      * @param $model
      *
-     * @return \Encore\Admin\Tree
+     * @return \Eilison\LaAdmin\Tree
      */
     public function tree($model, Closure $callable = null)
     {
@@ -117,7 +117,7 @@ class Admin
     /**
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Layout\Content
+     * @return \Eilison\LaAdmin\Layout\Content
      *
      * @deprecated since v1.6.1
      */
@@ -205,7 +205,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Encore\Admin\Widgets\Navbar
+     * @return \Eilison\LaAdmin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -231,7 +231,7 @@ class Admin
         app('router')->group($attributes, function ($router) {
 
             /* @var \Illuminate\Routing\Router $router */
-            $router->namespace('Encore\Admin\Controllers')->group(function ($router) {
+            $router->namespace('Eilison\LaAdmin\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController');

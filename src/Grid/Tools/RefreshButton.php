@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Eilison\LaAdmin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Eilison\LaAdmin\Admin;
 
 class RefreshButton extends AbstractTool
 {

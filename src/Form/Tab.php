@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Eilison\LaAdmin\Form;
 
-use Encore\Admin\Form;
+use Eilison\LaAdmin\Form;
 use Illuminate\Support\Collection;
 
 class Tab

@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Eilison\LaAdmin\Auth\Database\Administrator;
 
 class UsersTest extends TestCase
 {

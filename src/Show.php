@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin;
+namespace Eilison\LaAdmin;
 
-use Encore\Admin\Show\Divider;
-use Encore\Admin\Show\Field;
-use Encore\Admin\Show\Panel;
-use Encore\Admin\Show\Relation;
+use Eilison\LaAdmin\Show\Divider;
+use Eilison\LaAdmin\Show\Field;
+use Eilison\LaAdmin\Show\Panel;
+use Eilison\LaAdmin\Show\Relation;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

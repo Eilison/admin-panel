@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Eilison\LaAdmin\Grid\Displayers;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Column;
+use Eilison\LaAdmin\Grid;
+use Eilison\LaAdmin\Grid\Column;
 
 abstract class AbstractDisplayer
 {

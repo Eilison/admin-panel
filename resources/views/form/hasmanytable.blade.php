@@ -25,7 +25,7 @@
 
                         @foreach($form->fields() as $field)
 
-                            @if (is_a($field, \Encore\Admin\Form\Field\Hidden::class))
+                            @if (is_a($field, \Eilison\LaAdmin\Form\Field\Hidden::class))
                                 <?php $hidden .= $field->render(); ?>
                                 @continue
                             @endif
