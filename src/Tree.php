@@ -65,6 +65,16 @@ class Tree implements Renderable
     public $useRefresh = true;
 
     /**
+     * @var bool
+     */
+    public $useEdit = true;
+
+    /**
+     * @var bool
+     */
+    public $useDelete = true;
+
+    /**
      * @var array
      */
     protected $nestableOptions = [];
@@ -163,6 +173,14 @@ class Tree implements Renderable
     }
 
     /**
+     *
+     * @return Model|null
+     */
+    public function model() {
+        return $this->model;
+    }
+
+    /**
      * Disable create.
      *
      * @return void
@@ -190,6 +208,26 @@ class Tree implements Renderable
     public function disableRefresh()
     {
         $this->useRefresh = false;
+    }
+
+    /**
+     * Disable edit.
+     *
+     * @return void
+     */
+    public function disableEdit()
+    {
+        $this->useEdit = false;
+    }
+
+    /**
+     * Disable delete.
+     *
+     * @return void
+     */
+    public function disableDelete()
+    {
+        $this->useDelete = false;
     }
 
     /**
@@ -366,6 +404,8 @@ SCRIPT;
             'keyName'        => $this->model->getKeyName(),
             'branchView'     => $this->view['branch'],
             'branchCallback' => $this->branchCallback,
+            'useEdit'        => $this->useEdit,
+            'useDelete'     => $this->useDelete,
         ]);
 
         return view($this->view['tree'], $this->variables())->render();
