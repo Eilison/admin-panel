@@ -9,10 +9,10 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
 
         @if(config('admin.show_version'))
-        <strong>Version</strong>&nbsp;&nbsp; {!! \Eilison\LaAdmin\Admin::VERSION !!}
+        <strong>Version</strong>&nbsp;&nbsp; {!! env('APP_VERSION') !!}
         @endif
 
     </div>
     <!-- Default to the left -->
-    <strong>Powered by <a href="https://github.com/z-song/laravel-admin" target="_blank">laravel-admin</a></strong>
+    <strong>Powered by <a href="#" target="_blank">{!! env('APP_POWER') !!}</a></strong>
 </footer>
