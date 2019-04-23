@@ -53,7 +53,7 @@ class Permission
     public function checkRoutePermission(Request $request)
     {
         if (!$middleware = collect($request->route()->middleware())->first(function ($middleware) {
-            return Str::startsWith($this->middlewarePrefix, $middleware);
+            return Str::startsWith($middleware, $this->middlewarePrefix);
         })) {
             return false;
         }
